@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-@-mu!!wc6x%w(-v2k9ar)m4-^#5*e08qr$o**^m=$jp+)8ok_l'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -56,8 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR / 'base_templates',
-            BASE_DIR / 'recipes' / 'templates_temp'
+            BASE_DIR / 'base_templates'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
