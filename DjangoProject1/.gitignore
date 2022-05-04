@@ -129,3 +129,4 @@ gunicorn-error-log
 db copy.sqlite3
 static/
 secretkeyDjango.txt
+settings.py
